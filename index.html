@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Playfair:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <style>
+        
+        body{
+        background-color: #A1E8AF;
+      }
+        #nome{
+            font-family: 'Playfair', serif;
+            font-size: 35px;
+            text-align: center;
+            color: #3A2449;
+        }
+
+        #sobre-mim {
+            font-family:'Cormorant', serif;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+            text-align: right;
+            color: #3A2449;
+        }
+       
+        .subtitulo {
+            font-family: 'Cormorant', serif;
+            color: #3A2449;
+            font-size: 25px;
+        }
+
+        .list {
+
+            font-family: 'Cormorant', serif;
+            color: #3A2449;
+            font-size: 19px;
+            font-weight: 500;
+        }
+
+    </style>
 </head>
 <body>
     <a href="#foto">Minha foto</a>
@@ -12,7 +52,7 @@
     <a href="#habilidades">Lista de habilidades</a>
     <a href="https://www.youtube.com/@DeiveLeonardoo/playlists" target="_blank"> Algo que faço no meu lazer</a>
 
-    <h1>Larissa Chagas Kerchner</h1>
+    <h1 id="nome">Larissa Chagas Kerchner</h1>
     
     <img src="./imagem/L1 (cópia).jpg" alt="Foto de Larissa" width="200xp" id="foto"> 
    
@@ -24,12 +64,13 @@
         <strong> Capão do Leão - Rio Grande do Sul - Brasil</strong>
     </p>
 
-    <h2 id="habilidades">Lista de habilidades.</h2>
+    <h2 id="habilidades" class="subtitulo">Lista de habilidades.</h2>
+
     <ul>
-        <li> Git</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li class="list"> Git</li>
+        <li class="list">HTML</li>
+        <li class="list">CSS</li>
+        <li class="list">JavaScript</li>
     </ul>
 </body>
 </html
