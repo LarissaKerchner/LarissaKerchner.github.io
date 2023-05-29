@@ -1,0 +1,45 @@
+body{
+    background-color: #A1E8AF;
+  }
+    #nome{
+        font-family: 'Playfair', serif;
+        font-size: 20px;
+        text-align: center;
+        color: #3A2449;
+
+    }
+
+    #sobre-mim {
+        font-family:'Playfair', serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: right;
+        color: #3A2449;
+        margin-top: 60px;
+        
+    }
+   
+    .subtitulo {
+        font-family: 'Playfair', serif;
+        color: #3A2449;
+        font-size: 25px;
+    }
+
+    .list {
+
+        font-family: 'Playfair', serif;
+        color: #3A2449;
+        font-size: 19px;
+    }
+
+    #foto {
+    float: left;
+    padding: 10px;
+    background-color: #747C92;
+    }
+    .Lista{
+        position: absolute;
+        top: 450px;
+        left: 20px;
+    }
